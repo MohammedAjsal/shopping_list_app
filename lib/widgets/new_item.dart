@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:shopping_list_app/data/categories.dart';
 import 'package:shopping_list_app/models/category.dart';
 import 'package:shopping_list_app/models/grocery_item.dart';
-import 'package:shopping_list_app/widgets/grocery_list.dart';
 
 class NewItem extends StatefulWidget {
   const NewItem({super.key});
@@ -27,8 +26,6 @@ class _NewItemState extends State<NewItem> {
             quantity: _enterQunatity,
             category: _selectedQuantity),
       );
-      // print(_enteredName);
-      // print(_enterQunatity);
     }
   }
 
